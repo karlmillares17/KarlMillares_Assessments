@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarlMillares.Assessment1", "KarlMillares_Assessment1\KarlMillares.Assessment1.csproj", "{545D6316-F6FC-468B-B165-4DD5236B0094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarlMillares.Assessment1", "KarlMillares_Assessment1\KarlMillares.Assessment1.csproj", "{545D6316-F6FC-468B-B165-4DD5236B0094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarlMillares.Assessment1.Tests", "KarlMillares.Assessment1.Tests\KarlMillares.Assessment1.Tests.csproj", "{319DE5F1-66D5-4AD4-8B5C-C1428C17122F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarlMillares.Assessment1.Tests", "KarlMillares.Assessment1.Tests\KarlMillares.Assessment1.Tests.csproj", "{319DE5F1-66D5-4AD4-8B5C-C1428C17122F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assessment2", "Assessment2", "{314BEBF3-264E-41AC-9AE7-BBD14559C887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarlMillares.Assessment2", "KarlMillares.Assessment2\KarlMillares.Assessment2.csproj", "{940D0F98-B816-4F36-81E2-6E21D6290334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarlMillares.Assessment2", "KarlMillares.Assessment2\KarlMillares.Assessment2.csproj", "{940D0F98-B816-4F36-81E2-6E21D6290334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assessment1", "Assessment1", "{8D90CCDB-283D-4A71-ACF4-B862E7202F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{545D6316-F6FC-468B-B165-4DD5236B0094} = {8D90CCDB-283D-4A71-ACF4-B862E7202F32}
+		{319DE5F1-66D5-4AD4-8B5C-C1428C17122F} = {8D90CCDB-283D-4A71-ACF4-B862E7202F32}
 		{940D0F98-B816-4F36-81E2-6E21D6290334} = {314BEBF3-264E-41AC-9AE7-BBD14559C887}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
